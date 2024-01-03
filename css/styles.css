@@ -1,0 +1,50 @@
+* {
+ 
+}
+
+h1{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.05rem;
+}
+
+h2{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.05rem;
+}
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 16px;
+    line-height: 1.35em;    
+}
+
+.logo_principal_imagen{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .parrafo_header {
+    text-align: center;
+  }
+
+.centered_p {
+    vertical-align: middle;
+    position: relative;
+    
+}
