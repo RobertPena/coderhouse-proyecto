@@ -17,6 +17,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contactanos.css">
     <title>Contactanos</title>
 </head>
 
@@ -58,114 +59,179 @@
             </div>
     </header>
     <article>
-        <div class="container_contactanos_primero">
-        <h1>¡Contactanos y conoce mas sobre nosotros!</h1><br>
-        <p>Curabitur vitae sapien justo. Ut eget porta purus. Phasellus tristique augue consectetur urna egestas
-            consectetur. Fuscei</p>
-        <div class="botones_contactanos">    
-            <button type="button" class="btn btn-primary btn-lg">¡Adopta!</button> 
-            <button type="button" class="btn btn-primary btn-lg">¡Apadrina!</button>
-        </div>
-        <h2>¿Cómo funciona el apadrinamiento de mascotas? </h2>
-        <p>Curabitur vitae sapien justo. Ut eget porta purus. Phasellus tristique augue consectetur urna egestas
-            consectetur. Fusce eros lore <br>
-            Aenean viverra pulvinar libero quis rhoncus. Nullam ipsum nibh, pellentesque ac arcu et, semper posuere est.
-            Duis porttitor volutpat enim quis porttitor</p>
-        <img src="../images/contactanos_apadrina.jpg" alt="apadrina_ahora" width="708px" height="393px">
+        <div class="">
+            <div class="contactanos_banner">
+                <div class="contactanos_banner_texts">
+                    <h1>¡Contactanos y conoce mas sobre nosotros!</h1><br>
+                    <p>Curabitur vitae sapien justo. Ut eget porta purus. Phasellus tristique augue consectetur urna egestas
+                        consectetur. Fuscei</p>
+                    <div class="botones_contactanos">    
+                        <button type="button" class="btn btn-primary btn-lg">¡Adopta!</button> 
+                        <button type="button" class="btn btn-primary btn-lg">¡Apadrina!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="contactanos_como">
+                <div class="contactanos_como_texts">
+                    <h2>¿Cómo funciona el apadrinamiento de mascotas? </h2>
+                    <p>Curabitur vitae sapien justo. Ut eget porta purus. Phasellus tristique augue consectetur urna egestas
+                        consectetur. Fusce eros lore <br>
+                        Aenean viverra pulvinar libero quis rhoncus. Nullam ipsum nibh, pellentesque ac arcu et, semper posuere est.
+                        Duis porttitor volutpat enim quis porttitor</p>
+                </div>
+                <img src="../images/contactanos_apadrina.jpg" alt="apadrina_ahora" width="708px" height="393px">
+            </div>
         </div>
     </article>
-    <main>
+    <main class="custom_container">
         <h2>Contactanos</h2>
-        <form action="#">
-            <label for="nombre">Nombres
-                <input type="text" placeholder="Nombres">
-            </label><br>
-            <label for="apellidos">Apellidos
-                <input type="text" placeholder="apellidos">
-            </label><br>
-            <label for="email">Email:
-                <input type="email" placeholder="aaa@gmail.com" name="email"><br>
-            </label>
-            <label for="Distrito">Distrito de residencia
-                <input type="text" placeholder="Distrito"><br>
-            </label>
-            <label for="numero">Telefono
-                <input type="numero" placeholder="###"><br>
-            </label>
-            <label for="Observaciones"> Observaciones:<br>
-                <textarea placeholder="Observaciones"></textarea>
-            </label> <br>
-            <p>¿Que mascota deseas adoptar?</p>
-            <select name="letra" id="letra">
-                <option value="Chiqui">Chiqui</option>
-                <option value="Pelusa">Pelusa</option>
-                <option value="Negrita">Negrita</option>
-                <option value="Mota">Mota</option>
-                <option value="Pardo">Pardo</option>
-                <option value="Chato">Chato</option>
-                <option value="Solange">Solange</option>
-                <option value="aunno">Aun no lo decido</option>
-            </select>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Reset">
-        </form>
-        <h3>Nuestro email</h3>
-        <p>1331@gmail.com</p>
-        <h3>Llamanos</h3>
-        <p>+51 4587 888 323 <br>Anexo (3411)</p>
-        <h3>Dirección</h3>
-        <p>Ca. Antonio d la haza 311. <br>
-            Chorrallos Bogota, Colombia. <br>
-            Codigo postal : 1311
-        </p>
-        <h2>Síguenos en nuestras redes</h2>
-        <img src="../images/icono_facebook.png" alt="facebook_icono" width="25px" height="25px">
-        <img src="../images/icono_instagram.png" alt="instagram_icono" width="25px" height="25px">
-        <img src="../images/icono_twitter.png" alt="twitter_icono" width="25px" height="25px">
-        <img src="../images/icono_tiktok.png" alt="tiktok_icono" width="25px" height="25px">
-        <h3>RUC y razón social</h3>
-        <p>7787 54444496 3348641 <br>
-            Albergues Aspros SAC</p>
+        <div class="contactanos_info">
+            <form action="#">
+                <label for="nombre">Nombres
+                    <input type="text" placeholder="Nombres">
+                </label><br>
+                <label for="apellidos">Apellidos
+                    <input type="text" placeholder="apellidos">
+                </label><br>
+                <label for="email">Email:
+                    <input type="email" placeholder="aaa@gmail.com" name="email"><br>
+                </label>
+                <label for="Distrito">Distrito de residencia
+                    <input type="text" placeholder="Distrito"><br>
+                </label>
+                <label for="numero">Telefono
+                    <input type="numero" placeholder="###"><br>
+                </label>
+                <label for="Observaciones"> ¿Que mascota deseas adoptar?<br>
+                    <select name="letra" id="letra">
+                        <option value="Chiqui">Chiqui</option>
+                        <option value="Pelusa">Pelusa</option>
+                        <option value="Negrita">Negrita</option>
+                        <option value="Mota">Mota</option>
+                        <option value="Pardo">Pardo</option>
+                        <option value="Chato">Chato</option>
+                        <option value="Solange">Solange</option>
+                        <option value="aunno">Aun no lo decido</option>
+                    </select>
+                </label> <br>
+                <div class="adoptar">
+                    <p>Observaciones:</p>
+                    <textarea placeholder="Observaciones"></textarea>
+                    <div class="adoptar_buttons">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Reset">
+                    </div>
+                </div>
+            </form>
+            <div class="contactanos_data">
+                <div class="contactanos_item">
+                    <h3>Nuestro email</h3>
+                    <p>1331@gmail.com</p>
+                </div>
+                <div class="contactanos_item">
+                    <h3>Llamanos</h3>
+                    <p>+51 4587 888 323 <br>Anexo (3411)</p>
+                </div>
+                <div class="contactanos_item">
+                    <h3>Dirección</h3>
+                    <p>Ca. Antonio d la haza 311. <br>
+                        Chorrallos Bogota, Colombia. <br>
+                        Codigo postal : 1311
+                    </p>
+                </div>
+                <div class="contactanos_item">
+                    <h3>Síguenos en nuestras redes</h3>
+                    <img src="../images/icono_facebook.png" alt="facebook_icono" width="25px" height="25px">
+                    <img src="../images/icono_instagram.png" alt="instagram_icono" width="25px" height="25px">
+                    <img src="../images/icono_twitter.png" alt="twitter_icono" width="25px" height="25px">
+                    <img src="../images/icono_tiktok.png" alt="tiktok_icono" width="25px" height="25px">
+                </div>
+                <div class="contactanos_item">
+                    <h3>RUC y razón social</h3>
+                    <p>7787 54444496 3348641 <br>
+                    Albergues Aspros SAC</p>
+                </div>
+            </div>
+        </div>
+        
     </main>
-    <section>
+    <section class="custom_container">
         <h2>F.A.Q</h2>
-        <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
-        <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
-            magna. Pellentesque cursus convallis</p>
-        <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
-        <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
-            magna. Pellentesque cursus convallis</p>
-        <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
-        <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
-            magna. Pellentesque cursus convallis</p>
-        <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
-        <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
-            magna. Pellentesque cursus convallis</p>
-        <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
-        <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
-            magna. Pellentesque cursus convallis</p>
-        <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
-        <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
-            magna. Pellentesque cursus convallis</p>
+        <div class="contactanos_frecuentes">
+            <div class="contactanos_preguntas">
+                <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
+                <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
+                magna. Pellentesque cursus convallis</p>
+            </div>
+            <div class="contactanos_preguntas">
+                <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
+                <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
+                    magna. Pellentesque cursus convallis</p>
+            </div>
+            <div class="contactanos_preguntas">
+                <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
+                <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
+                    magna. Pellentesque cursus convallis</p>
+            </div>
+            <div class="contactanos_preguntas">
+                <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
+                <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
+                    magna. Pellentesque cursus convallis</p>
+            </div>
+            <div class="contactanos_preguntas">
+                <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
+                <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
+                    magna. Pellentesque cursus convallis</p>
+            </div>
+            <div class="contactanos_preguntas">
+                <h3>¿Vestibulum posuere varius augue, a aliquam?</h3>
+                <p>Suspendisse non turpis id magna fermentum iaculis. Duis sit amet lorem viverra, consequat velit vel, ornare
+                    magna. Pellentesque cursus convallis</p>
+            </div>
+        </div>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.020622194331!2d-77.05045262493788!3d-12.110740688131093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8364d4474e9%3A0xf652d967a1afe567!2sClub%20WUF!5e0!3m2!1ses-419!2spe!4v1700627029029!5m2!1ses-419!2spe"
-            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            height="600" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p><span>Quieres conocer de cerca las labores que hacemos?</span>Nullam eget tortor non lorem pharetra egestas
-            quis quis risus. Proin et leo venenatis, egestas justo at, mollis felis. Ut efficitur aliquet eros a
-            ullamcorper. Mauris accumsan justo et rutrum egestas. Aenean eget hendrerit nunc. Maecenas interdum laoreet
-            nulla vel vestibulum. Nulla eget leo</p>
-        <h2>Horario de visitas</h2>
-        <span>09:00</span>
-        <span>Lunes a Viernes</span>
-        <p>Proin et leo venenatis, egestas</p>
-        <span>15:00</span>
-        <span>Sabados y festivos</span>
-        <p>Proin et leo venenatis, egestas</p>
-        <span>23:00</span>
-        <span>Domingo</span>
-        <p>Proin et leo venenatis, egestas</p>
-        <p>Reserva tu vista aqui</p>
+        <div class="contactanos_quehacemos">
+            <p><span class="bold_high">Quieres conocer de cerca las labores que hacemos?</span>Nullam eget tortor non lorem pharetra egestas
+                quis quis risus. Proin et leo venenatis, egestas justo at, mollis felis. Ut efficitur aliquet eros a
+                ullamcorper. Mauris accumsan justo et rutrum egestas. Aenean eget hendrerit nunc. Maecenas interdum laoreet
+                nulla vel vestibulum. Nulla eget leo</p>
+            <div>
+                <h2 class="contactanos_horas_title">Horario de visitas</h2>
+                <div>
+                    <div class="contactanos_horas">
+                        <div class="contactanos_hora">
+                            <span>09:00</span>
+                        </div>
+                        <div class="contactanos_dias">
+                            <span>Lunes a Viernes</span>
+                            <p>Proin et leo venenatis, egestas</p>
+                        </div>
+                    </div>
+                    <div class="contactanos_horas">
+                        <div class="contactanos_hora">
+                            <span>15:00</span>
+                        </div>
+                        <div class="contactanos_dias">
+                            <span>Sabados y festivos</span>
+                            <p>Proin et leo venenatis, egestas</p>
+                        </div>
+                    </div>
+                    <div class="contactanos_horas">
+                        <div class="contactanos_hora">
+                            <span>23:00</span>
+                        </div>
+                        <div class="contactanos_dias">
+                            <span>Domingo</span>
+                            <p>Proin et leo venenatis, egestas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="btn btn-primary" style="max-height: 40px;">Reserva tu vista aqui</p>
+        </div>
     </section>
     <footer>
         <div class="navbar navbar-expand-lg bg-body-tertiary">

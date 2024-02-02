@@ -1,0 +1,166 @@
+.contactanos{
+
+    &_banner{
+        background-image: url('../../images/contactanos_apadrina.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        position: relative;
+        margin-bottom: 20px;
+        height: 750px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        &::after{
+            content: '';
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            min-height: 100%;
+            min-width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+        
+        &_texts{
+            max-width: 600px;
+            margin: auto;
+            color: white;
+            z-index: 3;
+            
+            & h1{
+                font-weight: bold;
+            }
+        }
+    }
+
+    &_como{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+   
+        &_texts{
+            width: 350px;
+        }
+
+        & h2{
+            text-align: left;
+        }
+    }
+    
+    &_info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        & form{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            width: 100%;
+            max-width: 600px;
+
+            & label{
+                display: flex;
+                flex-direction: column;
+                margin: 10px;
+                width: 45%;
+            }
+        }
+    }
+    
+    &_data{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        max-width: 600px;
+    }
+    
+    &_item{
+        margin: 15px;
+        width: 260px;
+
+        & h3, & p{
+            margin-bottom: 0;
+        }
+    }
+    
+    &_frecuentes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    &_preguntas{
+        max-width: 48%;
+    }
+    
+    &_horas{
+        display: flex;
+
+        &_title{
+            margin: 20px 0;
+        }
+    }
+    
+    &_hora{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    &_dias{
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    &_quehacemos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        & p{
+            max-width: 500px;
+        }
+    }
+}
+
+
+.botones_contactanos{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe {
+    width: 100%;
+}
+
+.adoptar {
+    flex-direction: column;
+
+    &, &_buttons {
+        display: flex;
+        width: 100%;
+    }
+
+    textarea{
+        height: 200px;
+    }
+
+    &_buttons{
+        justify-content: space-around;
+    }
+
+    & input{
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+}

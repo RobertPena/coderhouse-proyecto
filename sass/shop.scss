@@ -1,0 +1,159 @@
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    width: 100%;
+
+    &_banner{
+        width: 100%;
+        height: 100vh;
+        background-image: url("../../images/Tienda-producto_destacado.jpg");
+        max-width: 700px;
+        margin-top: 10px;
+
+        &_text{
+            color: white;
+            position: absolute;
+            top: 86px;
+            left: 100px;
+            max-width: 350px;
+            z-index: 3;
+
+            & h2{
+                font-size: 37px;
+                font-weight: bold;
+                text-align: left;
+                margin-bottom: 20px;
+            }
+        }
+
+        &_background{
+            background-size: cover;
+            background-position: bottom;
+            position: relative;
+            margin-bottom: 20px;
+
+            &::after{
+                content: '';
+                background-color: rgba(0, 0, 0, 0.5);
+                position: absolute;
+                min-height: 100%;
+                min-width: 100%;
+                top: 0;
+                left: 0;
+                z-index: 2;
+            }
+
+            & img{
+                height: 100%;
+            }
+
+            &_destacado{
+                background-image: url("../../images/Tienda-producto_1.jpg");
+                width: 100%;
+                height: 242px;
+            }
+
+            &_promocion{
+                background-image: url("../../images/Tienda-producto_2.jpg");
+                height: 242px;
+                max-width: 342px;
+                width: 100%;
+
+                &_2{
+                    background-image: url("../../images/Tienda-producto_3.jpg");
+                    max-width: 342px;
+                }
+            }
+
+            &_products{
+                position: relative;
+                display: flex;
+                min-width: 100%;
+                flex-wrap: wrap;
+            }
+        }
+    }
+    
+    &_products{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    &_product{
+        border: 1px solid #0000002d;
+        border-radius: 6px;
+        max-width: 314px;
+        margin: 20px;
+
+        &_img{
+            margin-bottom: 10px;
+        }
+
+        &_price{
+            left: 5px;
+            position: absolute;
+            top: 5px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        & span{
+            color: black;
+            z-index: 2;
+        }
+
+        & .sub{
+            text-decoration: line-through;
+        }
+    }
+
+    &_como{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        &_text{
+            max-width: 48%;
+            min-width: 350px
+        }
+
+        &_img{
+            max-width: 48%;
+            min-width: 350px
+        }
+    }
+    
+}
+
+@media (min-width:720px) {
+
+    .shop {
+
+        &_banner{
+            max-height: 498px;
+            margin-bottom: 0;
+            max-height: 504px;
+
+            &_products{
+                min-width: 760px;
+            }
+
+            &_text{
+                max-width: 392px;
+
+                & h2{
+                    font-size: 60px;
+                }
+            }
+
+            &_background_destacado{
+                max-width: 706px;
+            }
+        }
+    }
+}

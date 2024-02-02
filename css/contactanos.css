@@ -1,0 +1,163 @@
+.contactanos_banner{
+    background-image: url('../../images/contactanos_apadrina.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    height: 750px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactanos_banner::after{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.contactanos_banner_texts{
+    max-width: 600px;
+    margin: auto;
+    color: white;
+    z-index: 3;
+}
+
+.contactanos_banner_texts h1{
+    font-weight: bold;
+}
+
+.botones_contactanos{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactanos_como{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactanos_como_texts{
+    width: 350px;
+}
+
+.contactanos_como_texts h2{
+    text-align: left;
+}
+
+.contactanos_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contactanos_info form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contactanos_info form label{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 45%;
+}
+
+iframe {
+    width: 100%;
+}
+
+.adoptar, .adoptar_buttons{
+    display: flex;
+    width: 100%;
+}
+
+.adoptar{
+    flex-direction: column;
+}
+
+.adoptar textarea{
+    height: 200px;
+}
+
+.adoptar_buttons{
+    justify-content: space-around;
+}
+
+.adoptar_buttons input{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contactanos_data{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 600px;
+}
+
+.contactanos_item{
+    margin: 15px;
+    width: 260px;
+}
+
+.contactanos_item h3, .contactanos_item p{
+    margin-bottom: 0;
+}
+
+.contactanos_frecuentes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contactanos_preguntas{
+    max-width: 48%;
+}
+
+.contactanos_horas{
+    display: flex;
+}
+
+.contactanos_horas_title{
+    margin: 20px 0;
+}
+
+.contactanos_hora{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contactanos_dias{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contactanos_quehacemos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactanos_quehacemos p{
+    max-width: 500px;
+}
