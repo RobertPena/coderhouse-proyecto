@@ -1,0 +1,163 @@
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+
+.shop_banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../images/Tienda-producto_destacado.jpg");
+    max-width: 700px;
+    margin-top: 10px;
+}
+
+.shop_banner_principal{
+}
+
+.shop_banner_text{
+    color: white;
+    position: absolute;
+    top: 86px;
+    left: 100px;
+    max-width: 350px;
+    z-index: 3;
+}
+
+.shop_banner_text h2{
+    font-size: 37px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.shop_banner_background{
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.shop_banner_background::after{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.shop_banner_background img{
+    height: 100%;
+}
+
+
+.shop_banner_background_destacado{
+    background-image: url("../../images/Tienda-producto_1.jpg");
+    width: 100%;
+    height: 242px;
+}
+
+.shop_banner_background_promocion{
+    background-image: url("../../images/Tienda-producto_2.jpg");
+    height: 242px;
+    max-width: 342px;
+    width: 100%;
+}
+
+.shop_banner_background_promocion_2{
+    background-image: url("../../images/Tienda-producto_3.jpg");
+    max-width: 342px;
+}
+
+.shop_banner_products{
+    position: relative;
+    display: flex;
+    min-width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.shop_product_img{
+    margin-bottom: 10px;
+}
+
+.shop_como{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.shop_como_text{
+    max-width: 48%;
+    min-width: 350px
+}
+
+.shop_como_img{
+    max-width: 48%;
+    min-width: 350px
+}
+
+.shop_products{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.shop_product{
+    border: 1px solid #0000002d;
+    border-radius: 6px;
+    max-width: 314px;
+    margin: 20px;
+}
+
+.shop_product_price{
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop_product span{
+    color: black;
+    z-index: 2;
+}
+
+.shop_product .sub{
+    text-decoration: line-through;
+}
+
+@media (min-width:720px) {
+
+    .shop_banner{
+        max-height: 498px;
+        margin-bottom: 0;
+        max-height: 504px;
+    }
+
+    .shop_banner_products{
+        min-width: 760px;
+    }
+
+    .shop_banner_text{
+        max-width: 392px;
+    }
+ 
+    .shop_banner_text h2{
+        font-size: 60px;
+    }
+
+    .shop_banner_background_destacado{
+        max-width: 706px;
+    }
+    .shop_como{
+        
+    }
+}

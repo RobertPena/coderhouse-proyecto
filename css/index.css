@@ -1,0 +1,133 @@
+.logo_principal_imagen{
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 561px;
+    background-image: url('../images/Imagen_principal_logo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.quienes_somos{
+    
+}
+
+.quienes_somos .dogs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quienes_somos .dogs div{
+    height: 455px;
+    max-width: 170px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.quienes_somos .dogs div img{
+    height: 100%;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section .mascotas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card_testimonios{
+    position: relative;
+}
+
+.card_testimonios .circle{
+    height: 90px;
+    overflow: hidden;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    width: 90px;
+}
+
+.card_testimonios .circle img {
+    height: 90px;
+    width: auto;
+}
+
+.imagen_de_refugio1 img{
+    max-width: 100%;
+}
+
+.ml-6{
+    margin-left: 65px;
+}
+
+.max-w-600{
+    max-width: 600px;
+}
+
+@media (min-width: 780px) {
+    .refugio{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .refugio .refugio_imagen{
+        min-width: 200px;
+        width: 40%;
+    }
+    .refugio .refugio_text{
+        min-width: 200px;
+        width: 40%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .quienes_somos{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .quienes_somos .dogs{
+        max-width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .quienes_somos .dogs div{
+        max-width: 200px;
+    }
+
+    .quienes_somos .dogs :first-child{
+        margin-right: 20px;
+    }
+    
+    .texts{
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .refugio .refugio_imagen{
+        width: 48%;
+    }
+    .refugio .refugio_text{
+        width: 48%;
+    }
+}
