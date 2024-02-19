@@ -1,133 +1,214 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-h1{
-    font-family: 'Nanum Gothic Coding', monospace;
-    font-family: 'Nanum Myeongjo', serif;
-    text-align: center;
-    font-size: 45px;
-    line-height: 1.8rem;
-    
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="El albergue aspros esta ubicado en lima distrito capital de Peru">
+    <meta name="keywords" content="direccion, formulario, adopción>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Source+Serif+4:opsz,wght@8..60,200&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contactanos.css">
+    <title>Contactanos</title>
+</head>
 
-h2{
-    font-family: 'Nanum Gothic Coding', monospace;
-    font-family: 'Nanum Myeongjo', serif;
-    text-align: center;
-    font-size: 30px;
-    line-height: 1.05rem;
-}
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../images/logo_albergue_aspros.png" alt="logo_aspros"
+                        width="30" height="24" class="d-inline-block align-text-top">Albergue Aspros</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./conocenos.html">Conocenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <img src="../images/icono_facebook.png" alt="facebook_icono" width="25px" height="25px">
+                        <img src="../images/icono_instagram.png" alt="instagram_icono" width="25px" height="25px">
+                        <img src="../images/icono_twitter.png" alt="twitter_icono" width="25px" height="25px">
+                        <img src="../images/icono_tiktok.png" alt="tiktok_icono" width="25px" height="25px">
+                    </span>
+                </div>
+            </div>
+    </header>
+    <article>
+        <div class="">
+            <div class="contactanos_banner">
+                <div class="contactanos_banner_texts">
+                    <h1>¡Contactanos y conoce mas sobre nosotros!</h1><br>
+                    <p>Si tienes dudas, puedes llamarnos y agendar una cita en cualquiera de nuestras instalaciones</p>
+                    <div class="botones_contactanos">    
+                        <button type="button" class="btn btn-primary btn-lg">¡Adopta!</button> 
+                        <button type="button" class="btn btn-primary btn-lg">¡Apadrina!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="contactanos_como">
+                <div class="contactanos_como_texts">
+                    <h2>¿Cómo funciona el apadrinamiento de mascotas? </h2>
+                    <p>Descubre cómo puedes marcar la diferencia en la vida de un peludo amigo a través del apadrinamiento de mascotas. Esta práctica única ofrece una oportunidad para aquellos que desean contribuir al bienestar de los animales sin comprometerse con la adopción permanente.<br>
+                        En esta introducción, exploraremos los beneficios del apadrinamiento, cómo funciona el proceso y cómo cada contribución ayuda a brindar amor y cuidado a los animales necesitados. ¡Únete a nosotros en este viaje de compasión y solidaridad con nuestros amigos peludos!</p>
+                </div>
+                <img src="../images/contactanos_apadrina.jpg" alt="apadrina_ahora" width="708px" height="393px">
+            </div>
+        </div>
+    </article>
+    <main>
+        <h2>Contactanos</h2>
+        <div class="contactanos_info">
+            <form action="#">
+                <label for="nombre">Nombres
+                    <input type="text" placeholder="Nombres">
+                </label><br>
+                <label for="apellidos">Apellidos
+                    <input type="text" placeholder="apellidos">
+                </label><br>
+                <label for="email">Email:
+                    <input type="email" placeholder="aaa@gmail.com" name="email"><br>
+                </label>
+                <label for="Distrito">Distrito de residencia
+                    <input type="text" placeholder="Distrito"><br>
+                </label>
+                <label for="numero">Telefono
+                    <input type="numero" placeholder="###"><br>
+                </label>
+                <label for="Observaciones"> Observaciones:<br>
+                    <textarea placeholder="Observaciones"></textarea>
+                </label> <br>
+                <p>¿Que mascota deseas adoptar?</p>
+                <select name="letra" id="letra">
+                    <option value="Chiqui">Chiqui</option>
+                    <option value="Pelusa">Pelusa</option>
+                    <option value="Negrita">Negrita</option>
+                    <option value="Mota">Mota</option>
+                    <option value="Pardo">Pardo</option>
+                    <option value="Chato">Chato</option>
+                    <option value="Solange">Solange</option>
+                    <option value="aunno">Aun no lo decido</option>
+                </select>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reset">
+            </form>
+            <div>
+                <h3>Nuestro email</h3>
+                <p>1331@gmail.com</p>
+                <h3>Llamanos</h3>
+                <p>+51 4587 888 323 <br>Anexo (3411)</p>
+                <h3>Dirección</h3>
+                <p>Ca. Antonio d la haza 311. <br>
+                    Chorrallos Bogota, Colombia. <br>
+                    Codigo postal : 1311
+                </p>
+                <h2>Síguenos en nuestras redes</h2>
+                <img src="../images/icono_facebook.png" alt="facebook_icono" width="25px" height="25px">
+                <img src="../images/icono_instagram.png" alt="instagram_icono" width="25px" height="25px">
+                <img src="../images/icono_twitter.png" alt="twitter_icono" width="25px" height="25px">
+                <img src="../images/icono_tiktok.png" alt="tiktok_icono" width="25px" height="25px">
+                <h3>RUC y razón social</h3>
+                <p>7787 54444496 3348641 <br>
+                    Albergues Aspros SAC</p>
+            </div>
+        </div>
+        
+    </main>
+    <section>
+        <h2>F.A.Q</h2>
+        <h3>¿Cuál es el proceso de adopción?</h3>
+        <p>Completa un formulario, asiste a una entrevista, y si calificas, podrás llevar a casa a tu nuevo amigo peludo.</p>
+        <h3>¿Cómo funciona el apadrinamiento de mascotas?</h3>
+        <p>Aporta mensualmente para cubrir los gastos de un perro sin comprometerse con la adopción permanente.</p>
+        <h3>¿Qué incluye la tarifa de adopción?</h3>
+        <p>La tarifa cubre la esterilización, vacunación, microchip y cuidado básico del perro hasta su adopción.</p>
+        <h3>¿Qué necesito para adoptar?</h3>
+        <p>Ser mayor de edad, tener un hogar seguro y pasar por una entrevista de evaluación.</p>
+        <h3>¿Cómo puedo conocer a los perros disponibles?</h3>
+        <p>Visita nuestro refugio o consulta nuestra galería en línea para conocer a nuestros peludos residentes.</p>
+        <h3>¿Puedo visitar a la mascota antes de adoptarla?</h3>
+        <p>Sí, organizaremos una cita para que te encuentres con la mascota y veas si hay conexión antes de la adopción.</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.020622194331!2d-77.05045262493788!3d-12.110740688131093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8364d4474e9%3A0xf652d967a1afe567!2sClub%20WUF!5e0!3m2!1ses-419!2spe!4v1700627029029!5m2!1ses-419!2spe"
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p><span>Quieres conocer de cerca las labores que hacemos?</span>Te invitamos a experimentar de primera mano la calidez y el amor que llenan cada rincón de ASPROS. Nuestras visitas guiadas te brindarán la oportunidad de conocer a nuestros residentes peludos, explorar nuestras instalaciones y aprender sobre nuestro trabajo dedicado a salvar y mejorar la vida de los perros necesitados. </p>
+        <h2>Horario de visitas</h2>
+        <span>09:00</span>
+        <span>Lunes a Viernes</span>
+        <p>Proin et leo venenatis, egestas</p>
+        <span>15:00</span>
+        <span>Sabados y festivos</span>
+        <p>Proin et leo venenatis, egestas</p>
+        <span>23:00</span>
+        <span>Domingo</span>
+        <p>Proin et leo venenatis, egestas</p>
+        <p>Reserva tu vista aqui</p>
+    </section>
+    <footer>
+        <div class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../images/logo_albergue_aspros.png" alt="logo_aspros"
+                        width="30" height="24" class="d-inline-block align-text-top">
+                    Albergue Aspros</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="conocenos.html">Conocenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <img src="../images/icono_facebook.png" alt="facebook_icono" width="25px" height="25px">
+                        <img src="../images/icono_instagram.png" alt="instagram_icono" width="25px" height="25px">
+                        <img src="../images/icono_twitter.png" alt="twitter_icono" width="25px" height="25px">
+                        <img src="../images/icono_tiktok.png" alt="tiktok_icono" width="25px" height="25px">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 
-p {
-    font-family: 'Nanum Gothic', sans-serif;
-    font-family: 'Nanum Gothic Coding', monospace;
-    font-family: 'Nanum Myeongjo', serif;
-    font-size: 16px;
-    line-height: 1.35em;    
-}
-
-img{
-    max-height: 100%;
-    max-width: 100%;
-}
-
-main {
-    padding-top: 59px;
-}
-
-.max-w-full{
-    max-width: 100%;
-}
-
-.flex-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center
-}
-
-.custom_container {
-    max-width: 80%;
-    margin: auto;
-}
-
-
-.m-h-300{
-    max-height: 300px;
-}
-
-.bold_high{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .parrafo_header {
-    text-align: center;
-  }
-
-.centered_p {
-    vertical-align: middle;
-    position: relative;   
-}
-
-.centrado_texto {
-    position: relative;
-    top: 90px;              
-}
-
-.prueba_margen {
-    margin-left: 50px;
-    margin-top: 70px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    width: 250px;
-}
-.prueba_margen_parrafo {
-    margin-left: 520px;
-    margin-top: 70px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    width: 250px;
-}
-
-
-.pasos_proceso{
-    display: block;
-    text-align: center;
-    width: 300px;
-}
-
-.caja_p_mision p{
-}
-
-.container_section_conocenos{
-    text-align: center;
-    margin-bottom: 75px;
-    margin-top: 75px;
-}
-
-.container_section_conocenos p {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.container_contactanos_segundo{
-    grid-template-columns: 1fr 1fr;
-     grid-template-rows: 1fr 1fr;
-}
-
-
-@media (min-width:1000px) {
-    .responsive_content{
-        max-width: 80%;
-        margin: auto;
-    }
-}
+</html>
